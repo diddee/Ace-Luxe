@@ -1,4 +1,8 @@
 import React from 'react';
+import Original from '../../Assets/Original.png'
+import FastPayment from '../../Assets/FastPayment.png'
+import Shipping from '../../Assets/Shipping.png'
+import Affordable from '../../Assets/Affordable.png'
 import './Products.css';
 
 const products = [
@@ -16,22 +20,22 @@ const Products = () => {
     <div className="product-page">
       <div className="features">
         <div className="feature">
-          <img src="/icons/original.png" alt="Original" />
+          <img src={Original} alt="Original" />
           <h3>Original</h3>
           <p>Meticulous craftsmanship, true authentic beauty.</p>
         </div>
         <div className="feature">
-          <img src="/icons/shipping.png" alt="Shipping" />
+          <img src={Shipping} alt="Shipping" />
           <h3>Shipping</h3>
           <p>Enjoy fast, reliable worldwide shipping.</p>
         </div>
         <div className="feature">
-          <img src="/icons/fast-payment.png" alt="Fast Payment" />
+          <img src={FastPayment} alt="Fast Payment" />
           <h3>Fast Payment</h3>
           <p>Experience secure and swift payments.</p>
         </div>
-        <div className="feature">
-          <img src="/icons/affordable.png" alt="Affordable" />
+        <div className="feature" id='feature4'> i
+          <img src={Affordable} alt="Affordable" />
           <h3>Affordable</h3>
           <p>Luxury jewelry at affordable prices.</p>
         </div>
