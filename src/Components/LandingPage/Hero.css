@@ -1,0 +1,94 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0D1B2A;
+    padding: 50px;
+    color: #fff;
+}
+
+.hero-content {
+    flex: 1;
+    margin-right: 20px;
+    width: 20%;
+}
+
+.hero-content h1 {
+    /* font-size: 36px; */
+    width: 628px;
+    height: 86px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42.67px;
+
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+    width: 85%;
+    font-size: 18px;
+    line-height: 24.2px;
+    font-family: Inter;
+
+}
+
+.discover-button {
+    background-color: #FF7F0E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.stats{
+    margin-top: 55px;
+    width: 64%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #626262;
+    border-radius: 20px;
+    padding: 10px 0px;
+   
+}
+
+.stat-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    padding: 0 7px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    height: 70px;
+
+
+}
+
+.stat-item .ratings{
+    color: #FF7F0E;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+
+}
+
+.stat-item .desc{
+    color: #000000;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hero-images{
+    display: flex;
+    gap: 30px;
+}
+
+.image-model{
+    margin: 15% 0 0 0;
+}
