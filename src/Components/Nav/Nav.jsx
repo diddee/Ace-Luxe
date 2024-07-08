@@ -18,6 +18,8 @@ const Header = () => {
         <div className="icons">
             <span className="search-icon">🔍</span>
             <span className="cart-icon">🛒</span>
+            <span className="cart-icon"></span>
+
         </div>
     
     </div>

@@ -39,12 +39,6 @@
   .feature h3{
     line-height: 0;
   }
-
-  /* .feature p{
-    line-height: 0;
-
-
-  } */
   
   .title {
     font-family: Inter;
@@ -65,7 +59,6 @@
     border: none;
     font: 17px Inter;
     line-height: 15px;
-    /* margin: 0 5px; */
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -79,26 +72,39 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 0 20px;
   }
   
   .product {
-    background-color: #f5f5dc;
     border-radius: 8px;
-    width: 150px;
+    /* width: 150px; */
     margin-bottom: 20px;
     text-align: center;
     padding: 10px;
+    flex-basis: 22%;
   }
-  
+
   .product-image {
     width: 100%;
     border-radius: 8px;
   }
   
   .product-info {
-    margin-top: 10px;
+    text-align: left;
   }
-  
+  .product-info::before{
+    content: ;
+  }
+
+  .product-info p{
+    line-height: 5px;
+
+  }
+  .product-info .price{
+    font-weight: 600;
+  }
+
+
   /* Responsive design */
   @media (max-width: 768px) {
     .features {

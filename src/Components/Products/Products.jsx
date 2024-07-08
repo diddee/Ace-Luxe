@@ -3,16 +3,29 @@ import Original from '../../Assets/Original.png'
 import FastPayment from '../../Assets/FastPayment.png'
 import Shipping from '../../Assets/Shipping.png'
 import Affordable from '../../Assets/Affordable.png'
+import Product1 from '../../Assets/Product1.png'
+import Product2 from '../../Assets/Product2.png'
+import Product3 from '../../Assets/Product3.png'
+import Product4 from '../../Assets/Product4.png'
+import Product5 from '../../Assets/Product5.png'
+import Product6 from '../../Assets/Product6.png'
+import Product7 from '../../Assets/Product7.png'
+import Product8 from '../../Assets/Product8.png'
+import Like from '../../Assets/like.png'
+
+
+
 import './Products.css';
 
 const products = [
-  { id: 1, type: 'Neckpiece', price: 45, image: 'image1.jpg' },
-  { id: 2, type: 'Neckpiece', price: 45, image: 'image2.jpg' },
-  { id: 3, type: 'Neckpiece', price: 45, image: 'image3.jpg' },
-  { id: 4, type: 'Neckpiece', price: 45, image: 'image4.jpg' },
-  { id: 5, type: 'Neckpiece', price: 45, image: 'image5.jpg' },
-  { id: 6, type: 'Neckpiece', price: 45, image: 'image6.jpg' },
-  { id: 7, type: 'Neckpiece', price: 45, image: 'image7.jpg' },
+  { id: 1, type: 'Neckpiece', price: 45, image: Product1 },
+  { id: 2, type: 'Neckpiece', price: 45, image: Product2 },
+  { id: 3, type: 'Neckpiece', price: 45, image: Product3 },
+  { id: 4, type: 'Neckpiece', price: 45, image: Product4 },
+  { id: 5, type: 'Neckpiece', price: 45, image: Product5 },
+  { id: 6, type: 'Neckpiece', price: 45, image: Product6 },
+  { id: 7, type: 'Neckpiece', price: 45, image: Product7 },
+  { id: 8, type: 'Neckpiece', price: 45, image: Product8 }
 ];
 
 const Products = () => {
@@ -52,11 +65,12 @@ const Products = () => {
       </div>
       <div className="products">
         {products.map((product) => (
-          <div key={product.id} className="product">
+          <div key={product.id} className="product" >
             <img src={product.image} alt={product.type} className="product-image" />
+            <span><img src={Like}  /></span>
             <div className="product-info">
-              <h3>{product.type}</h3>
-              <p>${product.price}</p>
+              <p>{product.type}</p>
+              <p className='price'>${product.price}</p>
             </div>
           </div>
         ))}
