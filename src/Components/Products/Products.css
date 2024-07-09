@@ -41,10 +41,12 @@
   }
   
   .title {
-    font-family: Inter;
-    font-size: 30px;
+    text-transform: uppercase;
+    color: #062133;
+    font-size: 28px;
     font-weight: 700;
     text-align: center;
+    letter-spacing: .8px;
     margin: 20px 0;
   }
   
@@ -92,9 +94,6 @@
   .product-page  .product-info {
     text-align: left;
   }
-  .product-page  .product-info::before{
-    content: ;
-  }
 
   .product-page  .product-info p{
     line-height: 5px;
@@ -133,22 +132,37 @@
       line-height: 8px;
       font-size: 14px;
     }
-    
-    .title {
-      font-size: 30px;
-      font-weight: 700;
-      text-align: center;
-      margin: 20px 0;
-    }
 
-    .products {
-      flex-direction: column;
-      align-items: center;
+    .title {
+      font-size: 25px;
     }
   
-    .product {
-      width: 80%;
+    .filters{
+      display: none;
     }
+    /* .filter {
+      font: 13px Inter;
+      line-height: 15px;
+      padding: 5px 10px;
+      
+    }
+    
+    .filter.active {
+      background-color: #FF6300;
+    } */
+
+    .product-page  .product {
+      flex-basis: 32%;
+      margin-bottom: 5px;
+
+    }
+
+    .product-page  .product-info {
+      text-align: left;
+      font-size: 14px;
+    }
+  
+  
   }
 
 @media (max-width: 580px) {
@@ -162,66 +176,33 @@
   border-right: none;
   }
   .title {
-    font-family: Inter;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-    margin: 20px 0;
+    font-size: 20px;
   }
-  
-  .filters {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+  .filters{
+    display: none;
   }
-  
-  .filter {
-    background-color: #ECE6D3;
-    border: none;
-    font: 17px Inter;
-    line-height: 15px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+  /* .filter {
+    font: 8px Inter;
+    line-height: 13px;
+    padding: 0px 8px;
+    
   }
-  
   .filter.active {
     background-color: #FF6300;
-  }
+  } */
   
-  .products {
+.product-page  .products {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0 20px;
   }
   
-  .product {
-    border-radius: 8px;
-    /* width: 150px; */
-    margin-bottom: 20px;
-    text-align: center;
-    padding: 10px;
-    flex-basis: 22%;
+.product-page  .product {
+    flex-basis: 40%;
   }
 
-  .product-image {
-    width: 100%;
-    border-radius: 8px;
+  .product-page  .product-info {
+    font-size: 12px;
   }
-  
-  .product-info {
-    text-align: left;
-  }
-  .product-info::before{
-    content: ;
-  }
-
-  .product-info p{
-    line-height: 5px;
-
-  }
-  .product-info .price{
-    font-weight: 600;
-  }
-}   
+}

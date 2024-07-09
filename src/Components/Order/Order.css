@@ -62,7 +62,18 @@
       max-width: 100%;
     }
   
-    .order-image {
+    .order-image img {
+      max-width: 70%;
       margin-top: 20px;
+    }
+
+    .order-title {
+      font-size: 18px ;
+      margin: 15px auto;
+      
+  
+    }
+    .order-steps li {
+      font-size: 12px;
     }
   }
