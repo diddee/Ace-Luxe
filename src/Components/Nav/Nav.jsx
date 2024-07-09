@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 import Logo from '../../Assets/BrightOrange 2.png'
-import SearchIcon from '@mui/icons-material/Search';
-// import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import Hamburger from '@mui/icons-material/DensityMedium';
-import CloseIcon from '@mui/icons-material/Close';
-import ShoppingBagIcon from '@mui/icons-material/ShoppingBagRounded';
+import CloseIcon from '../../Assets/search.png';
+import Bag from '../../Assets/bag.png';
+import Search from '../../Assets/search.png';
+
 import './Nav.css'
 
 function Nav() {
@@ -38,9 +38,9 @@ function Nav() {
             <li><a href="/">Contact</a></li>
         </ul>
         <div className="icons">
-          <SearchIcon fontSize="medium" />
+          <Link><img src={Search} alt="search" /></Link>
           <Link to='/Cart'>
-            <ShoppingBagIcon fontSize="medium" />
+            <img src={Bag} alt="bag" />
           </Link>
         </div>
         
