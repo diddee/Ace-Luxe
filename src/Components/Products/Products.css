@@ -68,6 +68,127 @@
     background-color: #FF6300;
   }
   
+  .product-page .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 20px;
+  }
+  
+  .product-page  .product {
+    border-radius: 8px;
+    /* width: 150px; */
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    flex-basis: 22%;
+  }
+
+  .product-page  .product-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product-page  .product-info {
+    text-align: left;
+  }
+  .product-page  .product-info::before{
+    content: ;
+  }
+
+  .product-page  .product-info p{
+    line-height: 5px;
+
+  }
+  .product-page  .product-info .price{
+    font-weight: 600;
+  }
+
+
+  /* Responsive design */
+@media (max-width: 850px) {
+  .features {
+    justify-content: space-between;
+    padding: 5px 0;
+    margin: 0px;
+    }
+
+  .feature {
+    padding: 0px 30px 0px 10px;
+    width: 18%;
+    font-family: Inter;
+    text-align: center;
+    border-right: 1px solid #6B6B6B;
+    }
+    .feature img {
+      width: 15px;
+      height: 10%;
+      padding: 5px;
+    }
+  .feature p{
+    font-size: 12px;
+
+  }
+    .feature h3{
+      line-height: 8px;
+      font-size: 14px;
+    }
+    
+    .title {
+      font-size: 30px;
+      font-weight: 700;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .products {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product {
+      width: 80%;
+    }
+  }
+
+@media (max-width: 580px) {
+.features {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+.feature {
+  flex-basis: 35%;
+  border-right: none;
+  }
+  .title {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  
+  .filter {
+    background-color: #ECE6D3;
+    border: none;
+    font: 17px Inter;
+    line-height: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filter.active {
+    background-color: #FF6300;
+  }
+  
   .products {
     display: flex;
     flex-wrap: wrap;
@@ -103,21 +224,4 @@
   .product-info .price{
     font-weight: 600;
   }
-
-
-  /* Responsive design */
-  @media (max-width: 768px) {
-    .features {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .products {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .product {
-      width: 80%;
-    }
-  }
+}   

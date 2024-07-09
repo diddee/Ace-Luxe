@@ -34,7 +34,7 @@
 }
 
 .discover-button {
-    background-color: #FF7F0E;
+    background-color: #FF6300;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -67,7 +67,7 @@
 }
 
 .stat-item .ratings{
-    color: #FF7F0E;
+    color: #FF6300;
     font-family: Inter;
     font-size: 30px;
     font-weight: 600;
@@ -91,4 +91,132 @@
 
 .image-model{
     margin: 15% 0 0 0;
+}
+
+@media (max-width: 850px) {
+    .hero {
+        padding: 20px;
+    }
+    .hero-content {
+        width: 45%;
+    }
+    .hero-content h1 {
+        width: 300px;
+        height: 46px;
+        font-size: 20px;
+        line-height: 20px;
+    
+    }
+    .hero-content p {
+        width: 95%;
+        font-size: 14px;
+        line-height: 20px;
+    
+    }
+    .discover-button {
+        padding: 6px 10px;
+        cursor: pointer;
+    }
+    .stats{
+        margin-top: 10px;
+        width: 85%;
+        border-radius: 10px;
+        padding: 6px 0px;
+       
+    }
+    
+    .stat-item{
+        width: 25%;
+        padding: 0 4px;
+        border-radius: 10px;
+        height: 30px;
+    
+    
+    }
+    
+    .stat-item .ratings{
+        font-size: 15px;
+        line-height: 20px;
+    
+    }
+    
+    .stat-item .desc{
+        font-size: 9px;
+    }
+    .hero-images{
+        margin-top: 2rem;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .image-model img, .image-jewelry img{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 580px) {
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding: 0 20px 20px 20px;
+        color: #fff;
+    }
+    
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        width: 250px;
+        height: 40px;
+        font-size: 17px;
+    
+    }
+    .hero-content p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 16px;
+    
+    }
+    .discover-button {
+        font-size: 12;
+    }
+    .stats{
+        margin-top: 10px;
+        width: 55%;
+        border-radius: 10px;
+        padding: 6px 0px;
+       
+    }
+    
+    .stat-item{
+        width: 25%;
+        padding: 0 4px;
+        border-radius: 10px;
+        height: 30px;
+    
+    
+    }
+    
+    .stat-item .ratings{
+        font-size: 15px;
+        line-height: 20px;
+    
+    }
+    
+    .stat-item .desc{
+        font-size: 9px;
+    }
+    .hero-images{
+        margin-top: 2rem;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .image-model img, .image-jewelry img{
+        width: 100%;
+    }
+    
 }

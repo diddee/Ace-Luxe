@@ -47,7 +47,7 @@ const Products = () => {
           <h3>Fast Payment</h3>
           <p>Experience secure and swift payments.</p>
         </div>
-        <div className="feature" id='feature4'> i
+        <div className="feature" id='feature4'> 
           <img src={Affordable} alt="Affordable" />
           <h3>Affordable</h3>
           <p>Luxury jewelry at affordable prices.</p>

@@ -1,5 +1,10 @@
 import React from 'react';
+
 import Logo from '../../Assets/Logo.png'
+import FacebookIcon from '@mui/icons-material/FacebookRounded';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import XIcon from '@mui/icons-material/CloseSharp';
+
 import './Footer.css';
 
 const Footer = () => {
@@ -29,9 +34,16 @@ const Footer = () => {
                 </div>
                 <div className="footer-section">
                   <h3>SOCIAL MEDIA</h3>
-                  <p>Facebook</p>
-                  <p>Instagram</p>
-                  <p>X</p>
+                  <p>
+                    <FacebookIcon style={{ color: 'blue', fontSize: '24px' }}/>
+                    Facebook</p>
+                  <p>
+                    <InstagramIcon />
+                    Instagram</p>
+                  <p>
+                   <XIcon style={{ color: 'black', fontSize: '24px' }}/>
+
+                    X</p>
                   <p>Tik Tok</p>
                 </div>
             </div>

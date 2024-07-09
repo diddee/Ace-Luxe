@@ -1,0 +1,111 @@
+.cartpage{
+    display: flex;
+    flex-direction: column;
+    background-color: #ECE6D3;
+    padding-left: 2em;
+}
+.shopping-cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cart-items {
+    flex: 3;
+}
+
+.order-summary {
+    flex: 1;    
+    border-left: 1px solid #6B6B6B;
+    padding-left: 20px;
+    /* max-width: 25%; */
+    /* padding: 20px; */
+}
+
+.order-summary h3 {
+    font-size: 21px;
+    color: #062133;
+    line-height: 17px;
+}
+
+.delivery-options label, .delivery-time label, .payment-methods label {
+    color: #000000;
+    display: block;
+    font-size: 14px;
+}
+
+/* .delivery-options label input:checked, .delivery-time label input:checked, .payment-methods label input:checked{
+    background-color: #ECE6D3;
+    border-radius: 5px;
+} */
+
+.delivery-options h4, .delivery-time h4, .payment-methods h4{
+    text-transform: uppercase;
+    color: #6B6B6B;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+}
+
+.buttonLink{
+    width: 28%;
+    text-decoration: none;
+
+
+}
+
+.total .button{
+    font-weight: 600;
+    font-size: 16;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.total .span {
+    font-size: 15px;
+    margin-left: 3em;
+}
+
+.total div {
+    margin: 0 40px 0 auto;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.total div span{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product-list {
+    width: 85%;
+    background-color: #f0e7d7;
+    padding-bottom: 30px;
+  }
+  
+  .product-list h3 {
+    font-size: 21px;
+    line-height: 17px;
+    color: #062133;
+    margin-left: 20px;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .product-list p{
+    line-height: 8px;
+  }

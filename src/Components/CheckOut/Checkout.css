@@ -1,0 +1,262 @@
+/* App.css */
+.checkout-page {
+    background-color: #ECE6D3;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+ .checkout-content h2{
+    color: #062133;
+    /* width: 30%; */
+    text-align: left;
+    font-size: 22px;
+    margin-left: 4rem;
+  }
+.checkout-content h2::before {
+    content: '←';
+    font-size: 20px;
+    margin-right: 10px;
+    color: #FF6300;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .container1 form{
+
+    border-right: 1px solid #6B6B6B;
+  }
+  
+  .container1 h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #062133;
+    margin-top: 20px;
+  }
+
+  .container1 .input{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    width: 98%;
+  }
+  
+  .container1 .input-group {
+    margin-bottom: 15px;
+    flex: 1 2 35%;
+  }
+  
+  .container1 .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6B6B6B;
+    font-size: 14px;
+  }
+  
+  .container1 .input-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #6B6B6B;
+    background-color: #ECE6D3;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .container1 .button{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+
+  }
+  .container1 button {
+    background-color: #ff6b00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+  }
+  
+  .container1 button:hover {
+    background-color: #e65c00;
+  }
+
+
+  .container2 {
+    border-radius: 10px;
+    width: 42%;
+  }
+  
+  .container2 h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #062133;
+  }
+  
+  .container2 .order-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container2 .order-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 5px;
+  }
+  
+  .container2 .details {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+  }
+  
+  .container2 .details h4{
+    font-size: 13px;
+  }
+
+  .star-rating {
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px; 
+    color: #FF6300; 
+}
+
+  .container2 .details .price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+  }
+  
+  .container2 .details p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .container2 .sale {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .container2 .discount {
+    color: orange;
+  }
+  
+  .container2 .quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container2 .quantity button {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .container2 .quantity span {
+    margin: 0 10px;
+  }
+  
+  .container2 .price {
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  
+  .container2 .remove {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+
+  .totals .sum{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #062133;
+    border-bottom: 1px solid #062133;
+    padding: 0 20px;
+  }
+  
+  .totals .sum div, .totals .total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .totals .total{
+    font-weight: 600;
+    padding: 0 20px;
+
+  }
+  
+  .container2 .button{
+    display: flex;
+    justify-content: center;
+  }
+
+  .container2 .place-order{
+    background-color: #ff6b00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+  }
+
+  .place-order:hover {
+    background-color: #e65c00;
+  }
+  
+  .terms {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .terms a {
+    color: #ff6b00;
+    text-decoration: none;
+  }
+
+  @media (max-width: 480px) {
+    .container1 {
+      padding: 10px;
+    }
+  
+    .container1 h1 {
+      font-size: 20px;
+    }
+  
+    .container1 h2 {
+      font-size: 16px;
+    }
+  
+    .container1 button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  

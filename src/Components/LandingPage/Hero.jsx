@@ -10,7 +10,7 @@ const LandingPage = () => {
             <div className="hero-content">
                 <h1>Discover Timeless Elegance and Craftsmanship in Every Piece</h1>
                 <p>Embrace your unique style with our exquisite jewelry, designed to illuminate your beauty and capture the essence of sophistication.</p>
-                <button className="discover-button">Discover Menu</button>
+                <button className="discover-button">Discover More</button>
                 <div className="stats">
                     <div className="stat-item">
                         <div className='ratings'>15</div>
