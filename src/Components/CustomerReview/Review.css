@@ -69,7 +69,9 @@
 }
 
 @media (max-width: 768px) {
-   
+.customer-review{
+    height: 35vh;
+}
     .customer-review h2 {
         font-size: 18px;
         margin-bottom: 10px;
@@ -115,7 +117,6 @@
 @media (max-width: 580px) {
 
     .customer-review {
-       
         padding: 10px 0 40px 20px;
     }
 
