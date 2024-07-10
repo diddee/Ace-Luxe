@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProductCard.css';
 import productImage from '../../Assets/Product1.png';
-import like from '../../Assets/Vector.png'
+import like from '../../Assets/like.png'
 
 const ProductCard = () => {
   return (

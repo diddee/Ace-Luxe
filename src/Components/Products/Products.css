@@ -94,7 +94,9 @@
 
 .product-page .products .favorite-icon{
   width: 20px;
-  padding: 5px;
+  padding: 4px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
 }
   .product-page  .product-image {
     width: 100%;
@@ -225,12 +227,8 @@
     margin: 0 20px;
   }
 
-  .product-page .products span{
-    top: 5px;
-    right: 5px;
-  }
   
-  .product-page .products .favorite-icon{
+.product-page .products .favorite-icon{
     width: 15px;
     padding: 2px;
   }

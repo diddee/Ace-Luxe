@@ -24,7 +24,7 @@
     border-radius: 10px;
   }
   
-  .favorite-icon {
+  .product-card .product-image .favorite-icon {
     width: 15px;
     position: absolute;
     top: 10px;
@@ -71,7 +71,7 @@
 
   }
 
-  .favorite-icon {
+  .product-card .product-image .favorite-icon {
     top: 5%;
     right: 5%;
     width: 10px;
