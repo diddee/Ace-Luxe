@@ -152,14 +152,6 @@
     font-size: 14px;
   }
   
-  .container2 .sale {
-    color: red;
-    font-weight: bold;
-  }
-  
-  .container2 .discount {
-    color: orange;
-  }
   
   .container2 .quantity p{
     cursor: pointer;
