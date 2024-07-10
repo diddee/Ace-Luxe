@@ -41,13 +41,13 @@
 
 }
 
-.icons {
+.fig {
     display: flex;
     flex-direction: row;
     cursor: pointer;
 }
 
-.icons a img{
+.fig a img{
 
     width: 25px;
     height: 25px;
@@ -94,13 +94,13 @@
     }
 
     }
-    .icons {
+    .fig {
         width: 15%;
         justify-content: space-around;
         gap: 10px;
     }
     
-    .icons img{
+    .fig img{
 
         width: 18px;
         height: 18px;

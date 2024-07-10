@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 import Logo from '../../Assets/BrightOrange 2.png'
 import Hamburger from '@mui/icons-material/DensityMedium';
-import CloseIcon from '../../Assets/search.png';
+import CloseIcon from '@mui/icons-material/Close';
 import Bag from '../../Assets/bag.png';
 import Search from '../../Assets/search.png';
 
@@ -37,7 +37,7 @@ function Nav() {
             <li><a href="/">Categories</a></li>
             <li><a href="/">Contact</a></li>
         </ul>
-        <div className="icons">
+        <div className="fig">
           <Link><img src={Search} alt="search" /></Link>
           <Link to='/Cart'>
             <img src={Bag} alt="bag" className='bag'/>
