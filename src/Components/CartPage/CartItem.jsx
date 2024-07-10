@@ -22,6 +22,21 @@ const CartItem = ({ item }) => {
                 </h4>
                 <p>{item.description}</p>
             </div>
+            <div className='cartRight'>
+                    
+                    <div className="item-bonus">
+                        <p>{item.bonus} <span className="sale">Sale</span></p>
+                        <div ><span className='weight'>{item.weight}</span> <span className="discount">-10%</span></div>
+                    </div>
+                    <div className="item-quantity">
+                        <p> - <span>2</span> + </p>
+                    </div>
+                    <div className="item-price">
+                        <p>{item.price}</p>
+                    </div>
+                    
+                    <button className="remove-item">X</button>
+                </div>
             <div className="item-Rdetails">
                 <h3>{item.name} 
                     <div className="star-ratings">

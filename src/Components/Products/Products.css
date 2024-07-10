@@ -88,13 +88,13 @@
   }
 .product-page .products span{
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 10%;
+  right: 10%;
 }
 
 .product-page .products .favorite-icon{
-  width: 20px;
-  padding: 4px;
+  width: 18px;
+  padding: 5px;
   background-color: #FFFFFF;
   border-radius: 50%;
 }
@@ -227,10 +227,15 @@
     margin: 0 20px;
   }
 
+  .product-page .products span{
+    position: absolute;
+    top: 12%;
+    right: 13%;
+  }
   
 .product-page .products .favorite-icon{
-    width: 15px;
-    padding: 2px;
+    width: 12px;
+    padding: 3px;
   }
   
 .product-page  .product {
