@@ -236,7 +236,7 @@
     text-decoration: none;
   }
 
-  @media (max-width: 780px) {
+@media (max-width: 780px) {
 .container{
   flex-direction: column;
   padding-left: 2rem;
@@ -389,21 +389,7 @@
   text-decoration: none;
 }
   }
-    /* .container1 {
-      padding: 10px;
-    }
   
-    .container1 h1 {
-      font-size: 20px;
-    }
-  
-    .container1 h2 {
-      font-size: 16px;
-    }
-  
-    .container1 button {
-      font-size: 14px;
-      padding: 8px 16px;
-    }
+@media (max-width: 480px) {
+    
   }
-   */

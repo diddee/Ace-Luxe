@@ -78,6 +78,7 @@
   }
   
   .product-page  .product {
+    position: relative;
     border-radius: 8px;
     /* width: 150px; */
     margin-bottom: 20px;
@@ -85,7 +86,16 @@
     padding: 10px;
     flex-basis: 22%;
   }
+.product-page .products span{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
 
+.product-page .products .favorite-icon{
+  width: 20px;
+  padding: 5px;
+}
   .product-page  .product-image {
     width: 100%;
     border-radius: 8px;
