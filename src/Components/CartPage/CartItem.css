@@ -68,7 +68,7 @@
 .cart-item .item-quantity p{
     cursor: pointer;
     border: 1px solid #6B6B6B;
-    padding: 3px;
+    padding: 2px;
 
 }
   
@@ -76,15 +76,15 @@
     margin: 0 15px;
   }
 
-.item-quantity input {
+.cart-item .item-quantity input {
     width: 50px;
 }
 
-.item-bonus{
+.cart-item .item-bonus{
     padding: 0 10px;
 }
 
-.item-bonus , .item-bonus span{
+.cart-item .item-bonus , .item-bonus span{
     padding: 0 5px;
 }
 .item-bonus div{
