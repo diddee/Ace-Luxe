@@ -98,9 +98,7 @@ function CheckOut() {
                                 </div>
                             </div>
                             <div className="quantity">
-                            <button>-</button>
-                            <span>2</span>
-                            <button>+</button>
+                              <p> - <span>2</span> + </p>
                             </div>
                             <div className="price">$30.00</div>
                             <button className="remove">X</button>
@@ -123,9 +121,7 @@ function CheckOut() {
                                 </div>
                             </div>
                             <div className="quantity">
-                            <button>-</button>
-                            <span>2</span>
-                            <button>+</button>
+                              <p> - <span>2</span> + </p>
                             </div>
                             <div className="price">$30.00</div>
                             <button className="remove">X</button>
@@ -148,9 +144,7 @@ function CheckOut() {
                                 </div>
                             </div>
                             <div className="quantity">
-                            <button>-</button>
-                            <span>2</span>
-                            <button>+</button>
+                              <p> - <span>2</span> + </p>
                             </div>
                             <div className="price">$30.00</div>
                             <button className="remove">X</button>
@@ -173,9 +167,7 @@ function CheckOut() {
                                 </div>
                             </div>
                             <div className="quantity">
-                            <button>-</button>
-                            <span>2</span>
-                            <button>+</button>
+                              <p> - <span>2</span> + </p>
                             </div>
                             <div className="price">$30.00</div>
                             <button className="remove">X</button>

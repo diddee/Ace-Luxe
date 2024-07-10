@@ -1,13 +1,14 @@
 import React from 'react';
 import './ProductCard.css';
 import productImage from '../../Assets/Product1.png';
+import like from '../../Assets/Vector.png'
 
 const ProductCard = () => {
   return (
     <div className="product-card">
       <div className="product-image">
-        <img src={productImage} alt="Neckpiece" />
-        <div className="favorite-icon">❤️</div>
+        <img src={productImage} alt="Neckpiece" className='Pimage'/>
+        <img src={like} alt="like" className="favorite-icon"/>
       </div>
       <div className="product-info">
         <p>Neckpiece</p>
@@ -26,3 +27,5 @@ const ProductCard = () => {
 };
 
 export default ProductCard;
+        
+{/* <div className="favorite-icon">❤️</div> */}
