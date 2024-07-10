@@ -44,12 +44,10 @@
 .icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     cursor: pointer;
 }
 
-
-.icons img{
+.icons a img{
 
     width: 25px;
     height: 25px;
@@ -107,8 +105,4 @@
         width: 18px;
         height: 18px;
     }
-    /* .icons img{
-        margin: 0 20px 2rem 0;
-        width: 15px;
-        height: 15px;
-    } */
+    
