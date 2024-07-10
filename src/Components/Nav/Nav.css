@@ -20,7 +20,7 @@
     width: 40% ;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 15px;
 }
 
 .nav li{
@@ -42,19 +42,21 @@
 }
 
 .icons {
-    width: 5%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     cursor: pointer;
 }
 
-.icons a{
-    width: 5px;
-    height: 5px;
+
+.icons img{
+
+    width: 25px;
+    height: 25px;
 }
 
-@media screen and (max-width: 925px){
+
+@media screen and (max-width: 825px){
     .header{
         justify-content: space-between;
 
@@ -68,9 +70,7 @@
         width: 50px;
         color: #FF7F0E;
     }
-    /* .nav{
-        display: none;
-    } */
+   
     .nav {
         flex-direction: column;
         justify-content: flex-start;
@@ -96,3 +96,19 @@
     }
 
     }
+    .icons {
+        width: 15%;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    
+    .icons img{
+
+        width: 18px;
+        height: 18px;
+    }
+    /* .icons img{
+        margin: 0 20px 2rem 0;
+        width: 15px;
+        height: 15px;
+    } */

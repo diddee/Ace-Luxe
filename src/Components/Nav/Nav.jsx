@@ -40,7 +40,7 @@ function Nav() {
         <div className="icons">
           <Link><img src={Search} alt="search" /></Link>
           <Link to='/Cart'>
-            <img src={Bag} alt="bag" />
+            <img src={Bag} alt="bag" className='bag'/>
           </Link>
         </div>
         
