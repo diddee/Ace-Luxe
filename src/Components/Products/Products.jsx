@@ -12,6 +12,9 @@ import Product6 from '../../Assets/Product6.png'
 import Product7 from '../../Assets/Product7.png'
 import Product8 from '../../Assets/Product8.png'
 import Like from '../../Assets/like.png'
+import purse from '../../Assets/purse.png'
+
+
 
 
 
@@ -69,8 +72,11 @@ const Products = () => {
             <img src={product.image} alt={product.type} className="product-image" />
             <span><img src={Like}  className='favorite-icon'/></span>
             <div className="product-info">
-              <p>{product.type}</p>
-              <p className='price'>${product.price}</p>
+              <div className='info'>
+                <p>{product.type}</p>
+                <p className='price'>${product.price}</p>
+              </div>
+              <div className='image'><img src={purse} alt="purse" /></div>
             </div>
           </div>
         ))}
