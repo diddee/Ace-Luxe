@@ -36,11 +36,6 @@
     font-size: 14px;
 }
 
-/* .delivery-options label input:checked, .delivery-time label input:checked, .payment-methods label input:checked{
-    background-color: #ECE6D3;
-    border-radius: 5px;
-} */
-
 .delivery-options h4, .delivery-time h4, .payment-methods h4{
     text-transform: uppercase;
     color: #6B6B6B;
@@ -111,9 +106,63 @@
   }
 
   @media (max-width: 780px) {
+    .cartpage{
+        padding-left: 0em;
+    }
     .order-summary {
         border: none;
     
+    }
+    .order-summary h3{
+        font-size: 16px;
+    }
+    
+    .delivery-options h4{
+        font-size: 12px;
+    }
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product-list h3{
+        font-size: 16px;
+    }
+
+    .total {
+        margin-top: -20px;
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .buttonLink{
+        width: 78%;
+        text-decoration: none;
+    
+    }
+    
+    .total .button{
+        font-size: 13px;
+        background-color: #ff6600;
+    }
+    
+    .total .span {
+        font-size: 13px;
+        margin-left: 0;
+    }
+    
+    .total div {
+        margin: 0;
+        font-size: 17px;
+        font-weight: 700;
+    
+    }
+    
+    .total div span{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
     }
     
   }

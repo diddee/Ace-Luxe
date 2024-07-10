@@ -20,7 +20,7 @@ const ProductCard = () => {
             <span>2</span>
             <span>+</span>
         </div>
-        <div className="buy-now">Buy Now</div>
+        <div className="buy-now">Buy</div>
       </div>
     </div>
   );
@@ -28,4 +28,3 @@ const ProductCard = () => {
 
 export default ProductCard;
         
-{/* <div className="favorite-icon">❤️</div> */}

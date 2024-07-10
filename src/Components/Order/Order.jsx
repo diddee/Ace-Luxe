@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import OrderImage from '../../Assets/Order.png'
 
 import './Order.css';
@@ -19,7 +20,7 @@ const Order = () => {
           <li>Click 'Place Order' to complete your purchase</li>
           <li>You will receive an order confirmation email with tracking information</li>
         </ul>
-        <button className="order-button">ORDER NOW</button>
+        <Link to='/Cart'><button className="order-button">ORDER NOW</button></Link>
       </div>
       <div className="order-image">
         <img src={OrderImage} alt="Order Now" />
