@@ -93,14 +93,14 @@ function CheckOut() {
                                     </div>
                                 </h4>
                                 <div className='price'>
-                                    <p>$5.00 <span className="sale">Sale</span></p>
-                                    <p>50gr <span className="discount">-10%</span></p>
+                                  <div> <span >$5.00 </span><span className='gram'>50gr </span></div>
+                                  <div className="sale"> <span >Sale</span><span className="discount">-10%</span></div>
                                 </div>
                             </div>
                             <div className="quantity">
                               <p> - <span>2</span> + </p>
                             </div>
-                            <div className="price">$30.00</div>
+                            <div className="prices">$30.00</div>
                             <button className="remove">X</button>
                         </div>
                         <div className="order-item">
@@ -116,14 +116,14 @@ function CheckOut() {
                                     </div>
                                 </h4>
                                 <div className='price'>
-                                    <p>$5.00 <span className="sale">Sale</span></p>
-                                    <p>50gr <span className="discount">-10%</span></p>
+                                  <div> <span >$5.00 </span><span className='gram'>50gr </span></div>
+                                  <div className="sale"> <span >Sale</span><span className="discount">-10%</span></div>
                                 </div>
                             </div>
                             <div className="quantity">
                               <p> - <span>2</span> + </p>
                             </div>
-                            <div className="price">$30.00</div>
+                            <div className="prices">$30.00</div>
                             <button className="remove">X</button>
                         </div>
                         <div className="order-item">
@@ -139,14 +139,14 @@ function CheckOut() {
                                     </div>
                                 </h4>
                                 <div className='price'>
-                                    <p>$5.00 <span className="sale">Sale</span></p>
-                                    <p>50gr <span className="discount">-10%</span></p>
+                                  <div> <span >$5.00 </span><span className='gram'>50gr </span></div>
+                                  <div className="sale"> <span >Sale</span><span className="discount">-10%</span></div>
                                 </div>
                             </div>
                             <div className="quantity">
                               <p> - <span>2</span> + </p>
                             </div>
-                            <div className="price">$30.00</div>
+                            <div className="prices">$30.00</div>
                             <button className="remove">X</button>
                         </div>
                         <div className="order-item">
@@ -162,14 +162,14 @@ function CheckOut() {
                                     </div>
                                 </h4>
                                 <div className='price'>
-                                    <p>$5.00 <span className="sale">Sale</span></p>
-                                    <p>50gr <span className="discount">-10%</span></p>
+                                  <div> <span >$5.00 </span><span className='gram'>50gr </span></div>
+                                  <div className="sale"> <span >Sale</span><span className="discount">-10%</span></div>
                                 </div>
                             </div>
                             <div className="quantity">
                               <p> - <span>2</span> + </p>
                             </div>
-                            <div className="price">$30.00</div>
+                            <div className="prices">$30.00</div>
                             <button className="remove">X</button>
                         </div>
                         {/* Repeat the above block for other order items */}
@@ -184,7 +184,7 @@ function CheckOut() {
                             </div>
                         </div>
                         <div className='total'>
-                           TOTAL <p>$135.50</p>
+                           <span>TOTAL</span> <p>$135.50</p>
                         </div>
                     </div>
                     <div className='button'><button className="place-order">Place Order</button></div>
